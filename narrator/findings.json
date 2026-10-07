@@ -1,0 +1,38 @@
+{
+  "project": "Mamaearth Returns & Growth Intelligence",
+  "verified_metrics": {
+    "total_orders": 180,
+    "cleaned_total_revenue_inr": 98389.25,
+    "average_order_value_inr": 546.61,
+    "returned_orders": 45,
+    "overall_return_rate_pct": 25.0,
+    "unique_customers": 44,
+    "unique_products": 16
+  },
+  "return_analysis": {
+    "highest_return_city": "Jaipur",
+    "highest_return_city_rate_pct": 42.11,
+    "cod_return_rate_pct": 43.64
+  },
+  "risk_segment": {
+    "payment_method": "COD",
+    "city_tier": 2,
+    "return_rate_pct": 54.55
+  },
+  "reconciliation": {
+    "sql_revenue_inr": 99860.2,
+    "cleaned_revenue_inr": 98389.25,
+    "revenue_delta_inr": 1470.95
+  },
+  "time_series": {
+    "peak_month": "2026-01",
+    "peak_month_revenue_inr": 29417.6
+  },
+  "data_quality": {
+    "raw_orders": 180,
+    "raw_customers": 45,
+    "raw_products": 16,
+    "missing_discount_before_cleaning": 12,
+    "missing_rating_before_cleaning": 15
+  }
+}
