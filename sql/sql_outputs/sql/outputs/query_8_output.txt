@@ -1,0 +1,8 @@
+Query 8
+========================================
+acquisition_source | customer_count
+----------------------------------------
+Ad | 14
+Organic | 13
+Referral | 8
+Social | 10

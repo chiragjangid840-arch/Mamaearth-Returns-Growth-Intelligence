@@ -1,0 +1,14 @@
+Query 7
+========================================
+customer_id | name
+----------------------------------------
+C001 | Aarav
+C003 | Aditi
+C004 | Ananya
+C011 | Arjun
+C021 | Aryan
+C030 | Anika
+C031 | Aditya
+C036 | Aisha
+C041 | Ayaan
+C044 | Aria
