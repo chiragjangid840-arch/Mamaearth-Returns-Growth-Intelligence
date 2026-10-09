@@ -1,11 +1,35 @@
+# Mamaearth Returns & Growth Intelligence
+
 ## Situation
-The Mamaearth business achieved a cleaned total revenue of 98389.25 INR across 180 total orders from 44 unique customers and 16 unique products, resulting in an average order value of 546.61 INR. Business performance peaked in 2026-01 with a peak month revenue of 29417.6 INR, following data cleaning that addressed 12 missing discounts and 15 missing ratings, while SQL revenue of 99860.2 INR showed a revenue delta of 1470.95 INR compared to the cleaned revenue.
+The cleaned dataset contains **175 orders**, generating total revenue of **₹97,358.30**, with an average order value of **₹556.33**. The analysis examines order returns, payment behavior, data quality, and monthly revenue trends.
 
 ## Complication
-The business faces a significant overall return rate of 25.0%, representing 45 returned orders out of the total 180. Return issues are concentrated heavily in specific segments: Jaipur is the highest return city with a return rate of 42.11%, COD orders exhibit a high return rate of 43.64%, and the highest-risk segment consists of COD payment methods in Tier 2 cities, which suffer an alarming return rate of 54.55%.
+A total of **44 orders were returned**, representing a return rate of **25.14%**. Quantity analysis identified **2 outlier orders**, O0011 and O0098. These orders were flagged for analysis rather than deleted from the cleaned dataset.
 
 ## Resolution
-To mitigate these return-related risks, practical actions should focus on the highest-risk segments by implementing targeted policies for COD payment methods and Tier 2 cities—particularly in high-return locations like Jaipur—while maintaining data quality standards for discounts and ratings to support future growth intelligence.
+Prioritize investigation of high-return customer segments and review the reasons behind returned orders. Monitor monthly revenue using the outlier-corrected trend, and use the verified metrics to guide decisions. Further investigation is needed before attributing returns to any specific cause.
 
-## Business Takeaway
-High return rates driven by COD payment methods in Tier 2 cities present a major risk to overall profitability and require targeted intervention.
+## Key Verified Findings
+
+| Metric | Result |
+|---|---:|
+| Raw orders | 180 |
+| Cleaned orders | 175 |
+| Total revenue | ₹97,358.30 |
+| Average order value | ₹556.33 |
+| Returned orders | 44 |
+| Overall return rate | 25.14% |
+| Unique customers | 44 |
+| Unique products | 16 |
+| Flagged quantity outliers | 2 |
+| Missing discounts after cleaning | 0 |
+| Missing ratings after cleaning | 0 |
+
+## Monthly Revenue Insight
+After excluding the two flagged quantity outliers from the monthly revenue calculation, **March 2026** was the peak month, with revenue of **₹20,318.90**.
+
+## One-Line Business Takeaway
+**Focus on reducing returns through segment-level investigation while tracking revenue trends using outlier-corrected data.**
+
+## Generation Mode
+Offline fallback — the AI service was not used. The narrative was generated from the verified metrics stored in `findings.json`.
